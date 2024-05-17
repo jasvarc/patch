@@ -1,5 +1,5 @@
 ---
-- name: ensure wget is installed
+- name: ensure aalib is installed
   yum:
     name: aalib
     state: present
