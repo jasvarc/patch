@@ -7,4 +7,5 @@
         name: aalib
         state: present
         update_cache: true
+        use_backend: yum
       become: true
