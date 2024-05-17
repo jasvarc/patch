@@ -1,0 +1,6 @@
+- name: ensure wget is installed
+  yum:
+    name: aalib
+    state: present
+    update_cache: true
+  become: true
