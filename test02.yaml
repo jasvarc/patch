@@ -2,9 +2,9 @@
 - hosts: all
   gather_facts: false
   tasks:
-    - name: ensure aalib is installed
+    - name: ensure wget is installed
       yum:
-        name: aalib
+        name: wget
         state: present
         update_cache: true
         use_backend: dnf
