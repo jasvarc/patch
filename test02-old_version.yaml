@@ -4,7 +4,8 @@
   tasks:
     - name: ensure wget is installed
       yum:
-        name: wget-1.19.5-10.el8
+        name: wget
+        releasever: 1.19.5-10.el8
         state: present
         update_cache: true
         use_backend: dnf
