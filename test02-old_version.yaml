@@ -4,8 +4,7 @@
   tasks:
     - name: ensure wget is installed
       yum:
-        name: wget
-        releasever: 1.19.5-10.el8
+        name: wget-1.19.5-10.el8
         allow_downgrade: true
         nobest: true
         state: present
