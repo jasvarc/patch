@@ -5,7 +5,7 @@
     - name: ensure wget is installed
       yum:
         name: wget
-        state: present
+        state: latest
         update_cache: true
         use_backend: dnf
       become: true
